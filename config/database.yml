@@ -1,0 +1,29 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  host: 192.168.100.217
+  database: course
+  username: server
+  password: server
+  socket: /tmp/mysql.sock
+  reconnect: true
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  host: 192.168.100.217
+  database: course
+  username: server
+  password: server
+  socket: /tmp/mysql.sock
+  reconnect: true
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  host: 192.168.100.217
+  database: course
+  username: server
+  password: server
+  socket: /tmp/mysql.sock
+  reconnect: true
